@@ -1,0 +1,10 @@
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+    
+server:
+  port: 8302
+spring:
+  application:
+    name: Registry-server
