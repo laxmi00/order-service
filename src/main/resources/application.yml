@@ -1,0 +1,15 @@
+    
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:8302/eureka/
+  instance:
+    hostname: localhost
+server:
+  port: 9190
+spring:
+  application:
+    name: order-service
+      
